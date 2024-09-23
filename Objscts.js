@@ -13,7 +13,7 @@ const gameWorld = {
             abilities: abilities,
             level: 1,
             xp: 0,
-            playerClass: playerClass, // Adding playerClass for the class system
+            playerClass: playerClass, 
 
             move: function(newPosition) {
                 this.position = newPosition;
